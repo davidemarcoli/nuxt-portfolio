@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-1" style="height: 100vh">
+  <div>
     <ul>
       <li
           v-for="color of ['system', 'light', 'dark', 'sepia']"
@@ -9,7 +9,7 @@
           selected: !$colorMode.unknown && color === $colorMode.value
         }"
       >
-        <component :is="`icon-${color}`" @click="$colorMode.preference = color" />
+        <component :is="`theme-icon-${color}`" @click="$colorMode.preference = color"/>
       </li>
     </ul>
     <p>
@@ -27,15 +27,18 @@ ul {
   padding: 0;
   margin: 0;
 }
+
 ul li {
   display: inline-block;
   padding: 5px;
 }
+
 p {
   margin: 0;
   padding-top: 5px;
   padding-bottom: 20px;
 }
+
 .feather {
   position: relative;
   top: 0px;
@@ -47,16 +50,20 @@ p {
   border-radius: 5px;
   transition: all 0.1s ease;
 }
+
 .feather:hover {
   top: -3px;
 }
+
 .preferred .feather {
   border-color: var(--color-primary);
   top: -3px;
 }
+
 .selected .feather {
   color: var(--color-primary);
 }
+
 svg {
   width: 48px;
   height: 48px;
