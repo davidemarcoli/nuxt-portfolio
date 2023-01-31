@@ -28,7 +28,7 @@
             </p>
           </div>
         </div>
-        <div class="col-span-1 justify-center flex items-center grid place-items-center">
+        <div class="col-span-1">
           <div>
           <img src="/img/bild_ferien_compressed_resized_small.webp" alt="Ferien Foto von Davide Marcoli" class="max-w-sm">
         </div>
