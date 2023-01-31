@@ -1,5 +1,5 @@
 <template>
-  <div class="block">
+  <div class="h-screen">
     <div class="big-text software">
       Software
     </div>
@@ -8,13 +8,13 @@
     </div>
   </div>
 
-  <div class="h-screen">
-    <div class="flex items-center justify-center p-24">
-      <div class="grid place-items-center grid-flow-row grid-cols-2 gap-10" style="margin-top: 100vh">
-        <div class="col-span-2 text-3xl">
+  <div class="grid h-screen place-items-center">
+    <div class="flex place-items-center items-center justify-center p-24">
+      <div class="grid place-items-center grid-flow-row grid-cols-2 gap-10 w-3/4">
+        <div class="col-span-2 text-4xl">
           <h1 class="title">My Name is <span style="text-decoration: underline">Davide Marcoli</span> and i'm from Switzerland</h1>
         </div>
-        <div class="col-span-1 text-xl">
+        <div class="col-span-1 text-lg">
           <div>
             <h2 class="text-2xl">My Life <span style="font-size: 0.5em">(As of 2022)</span></h2>
             <p>
@@ -28,9 +28,9 @@
             </p>
           </div>
         </div>
-        <div class="col-span-1">
+        <div class="col-span-1 justify-center flex items-center grid place-items-center">
           <div>
-          <img src="/img/bild_ferien_compressed_resized_small.webp" alt="Ferien Foto von Davide Marcoli" width="100%" height="auto">
+          <img src="/img/bild_ferien_compressed_resized_small.webp" alt="Ferien Foto von Davide Marcoli" class="max-w-sm">
         </div>
         </div>
       </div>
