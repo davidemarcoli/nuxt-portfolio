@@ -8,6 +8,8 @@ export default defineNuxtConfig({
         '@nuxtjs/color-mode',
         '@nuxtjs/tailwindcss',
         '@nuxt/image-edge',
+        '@nuxtjs/robots',
+        'nuxt-icon',
         'nuxt-delay-hydration',
         'nuxt-purgecss',
     ],
@@ -25,7 +27,7 @@ export default defineNuxtConfig({
     },
     colorMode: {
         preference: 'system',
-        fallback: 'light',
+        fallback: 'dark',
         hid: 'nuxt-color-mode-script',
         globalName: '__NUXT_COLOR_MODE__',
         componentName: 'ColorScheme',

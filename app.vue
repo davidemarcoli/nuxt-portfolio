@@ -1,8 +1,7 @@
 <template>
   <SeoKit />
-  <div class="h-screen">
+  <div>
     <NuxtLayout>
-      <Header />
       <NuxtPage />
     </NuxtLayout>
   </div>
