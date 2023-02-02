@@ -36,3 +36,27 @@ body {
 a {
   color: var(--color-primary)
 }
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff #121212;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--bg)
+  //background: var(--bg-secondary)
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  border-radius: 15px;
+  //border: 3px solid var(--color-primary);
+  border: 3px solid var(--bg);
+}

@@ -13,6 +13,11 @@ export default defineNuxtConfig({
         'nuxt-delay-hydration',
         'nuxt-purgecss',
     ],
+    plugins: [
+        { src: '~/plugins/aos', mode: 'client'},
+        '~/plugins/naive',
+        // '~/plugins/typewriter',
+        ],
     alias: {
         '@': resolve(__dirname, '/'),
     },

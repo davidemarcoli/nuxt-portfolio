@@ -9,7 +9,6 @@
 <style scoped>
   footer {
     background-color: #333;
-    color: #fff;
     padding: 1rem;
     text-align: center;
     position: fixed;
@@ -24,7 +23,9 @@
     background-color: rgba(0, 0, 0, 0);
 
     /*opacity effect on text*/
-    color: rgba(255, 255, 255, 0.5);
+
+    /* add opaceity to predifined colors */
+    color: rgba(var(--color), 0.5);
   }
 </style>
 
