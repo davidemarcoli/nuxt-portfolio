@@ -1,6 +1,6 @@
 <template>
   <div class="sandbox-header">
-    <n-gradient-text type="success">
+    <n-gradient-text class="mr-2" type="success">
       Nuxt Sandbox!
     </n-gradient-text>
     <Icon name="uil:flask" />
@@ -16,8 +16,5 @@
     height: 50px;
     font-size: 2em;
     position: fixed;
-  }
-  n-gradient-text {
-    margin-right: 0.5em;
   }
 </style>

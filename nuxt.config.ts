@@ -1,9 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import {useSchemaOrg} from "@unhead/schema-org-vue";
 import {resolve} from "pathe";
+import {useSchemaOrg} from "@unhead/schema-org-vue";
 
 export default defineNuxtConfig({
-    components: { global: true, dirs: ['components'] },
+    components: {global: true, dirs: ['components']},
     modules: [
         '@nuxtjs/color-mode',
         '@nuxtjs/tailwindcss',
@@ -14,10 +14,10 @@ export default defineNuxtConfig({
         'nuxt-purgecss',
     ],
     plugins: [
-        { src: '~/plugins/aos', mode: 'client'},
+        {src: '~/plugins/aos', mode: 'client'},
         '~/plugins/naive',
         // '~/plugins/typewriter',
-        ],
+    ],
     alias: {
         '@': resolve(__dirname, '/'),
     },
@@ -69,7 +69,7 @@ useSchemaOrg({
             'https://github.com/davidemarcoli',
             'https://www.instagram.com/davidemarcoli/',
             'https://www.youtube.com/@davidemarcoli',
-            ],
+        ],
         birthDate: '2005-02-13',
         birthPlace: {
             name: 'Aarau (AG)',

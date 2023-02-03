@@ -9,10 +9,10 @@ definePageMeta({
     <Title>Sandbox</Title>
     <ul class="flex flex-col items-center justify-center space-y-4">
       <li>
-        <NuxtLink to="counter">Counter</NuxtLink>
+        <NuxtLink to="/sandbox/counter">Counter</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="fetch">Fetch</NuxtLink>
+        <NuxtLink to="/sandbox/fetch">Fetch</NuxtLink>
       </li>
     </ul>
   </div>
